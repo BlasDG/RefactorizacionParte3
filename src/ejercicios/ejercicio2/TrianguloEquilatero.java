@@ -10,7 +10,7 @@ public class TrianguloEquilatero {
     public int getLado() {
         return lado;
     }
-    public int getPerimetro() {
+    public int calcularPerimetro() {
         return lado * 3;
     }
     public double getArea() {
