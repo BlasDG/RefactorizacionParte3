@@ -16,7 +16,8 @@ public class longitudLado {
         return lado * NUM_LADOS;
     }
     public double getArea() {
-        return (lado * lado * Math.sqrt(3)) / DIVISOR_AREA;
+        double raizTres = Math.sqrt(3);
+        return (lado * lado * raizTres) / DIVISOR_AREA;
     }
 
 }
