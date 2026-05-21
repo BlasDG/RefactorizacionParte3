@@ -1,9 +1,9 @@
 package ejercicios.ejercicio2;
 
-public class TrianguloEquilatero {
+public class longitudLado {
     private final int lado;
 
-    public TrianguloEquilatero(int lado) {
+    public longitudLado(int lado) {
         this.lado = lado;
     }
 
@@ -16,4 +16,5 @@ public class TrianguloEquilatero {
     public double getArea() {
         return (lado * lado * Math.sqrt(3)) / 4;
     }
+
 }
