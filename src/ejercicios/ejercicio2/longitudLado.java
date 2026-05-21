@@ -18,6 +18,10 @@ public class longitudLado {
     public double getArea() {
         double raizTres = Math.sqrt(3);
         int ladoCuadrado = lado * lado;
+        return calcularAreaInterna(ladoCuadrado, raizTres);
+    }
+
+    private static double calcularAreaInterna(int ladoCuadrado, double raizTres) {
         return (ladoCuadrado * raizTres) / DIVISOR_AREA;
     }
 
