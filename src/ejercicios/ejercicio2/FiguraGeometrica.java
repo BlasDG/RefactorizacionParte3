@@ -18,6 +18,6 @@ public class FiguraGeometrica {
     }
 
     public int getLado() {
-        return lado;
+        return longitudLado;
     }
 }
