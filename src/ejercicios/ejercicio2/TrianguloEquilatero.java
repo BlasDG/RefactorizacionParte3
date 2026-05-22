@@ -1,28 +1,27 @@
 package ejercicios.ejercicio2;
 
-public class longitudLado {
+public class TrianguloEquilatero {
     public static final int NUM_LADOS = 3;
     public static final int DIVISOR_AREA = 4;
-    private final int lado;
+    private final int longitudLado;
 
-    public longitudLado(int lado) {
-        this.lado = lado;
+    public TrianguloEquilatero(int lado) {
+        this.longitudLado = lado;
     }
 
-    public int getLado() {
-        return lado;
+    public int getLongitudLado() {
+        return longitudLado;
     }
     public int calcularPerimetro() {
-        return lado * NUM_LADOS;
+        return longitudLado * NUM_LADOS;
     }
     public double getArea() {
         double raizTres = Math.sqrt(3);
-        int ladoCuadrado = lado * lado;
+        int ladoCuadrado = longitudLado * longitudLado;
         return calcularAreaInterna(ladoCuadrado, raizTres);
     }
 
     private static double calcularAreaInterna(int ladoCuadrado, double raizTres) {
         return (ladoCuadrado * raizTres) / DIVISOR_AREA;
     }
-
 }
