@@ -5,8 +5,8 @@ public class TrianguloEquilatero {
     public static final int DIVISOR_AREA = 4;
     private final int longitudLado;
 
-    public TrianguloEquilatero(int lado) {
-        this.longitudLado = lado;
+    public TrianguloEquilatero(int longitudLado) {
+        this.longitudLado = longitudLado;
     }
 
     public int getLongitudLado() {
